@@ -1,0 +1,210 @@
+* {
+    font-family: 'Dosis', sans-serif;
+    background-color: black;
+
+}
+
+.wrapper {
+    width: auto;
+    margin: auto;
+}
+
+/* Header Logo */
+header {
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
+}
+
+header > img {
+    width: 275px;
+    height: 201px;
+}
+
+/* Trailer */
+.trailer {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin: 25px 0;
+}
+
+/* Video Banner/Description */
+.hero {
+    background-color: #191919;
+}
+
+.banner {
+    background-color: #191919;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px 0;
+}
+
+video {
+    width: 100%;
+}
+
+.descr {
+    background-color: #191919;
+    width: 400px;
+}
+
+.descr > p {
+    background-color: #191919;
+
+    color: white;
+    font-size: 20px;
+}
+
+/* Start of Form Field */
+h1 {
+    text-align: center;
+    margin: 25px 0;
+    color: white;
+}
+
+/* Entire Form Field */
+.signUp {
+    background-color: #2D2759;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 960px;
+    height: 450px;
+    margin: auto;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
+
+/* Start of Input for Form */
+
+.emailForm {
+    background-color: #2D2759;
+    display: flex;
+    flex-direction: column;
+}
+
+.emailForm > label {
+    color: #FFFE1D;
+    background-color: #2D2759;
+    font-size: 37px;
+    margin-bottom: 10px;
+}
+
+.emailForm > input {
+    background-color: #FFFFFF;
+    width: 450px;
+    height: 30px;
+    margin: 10px 0;
+}
+
+.mailButton {
+    background-color: #2D2759;
+    display: flex;
+    justify-content: center;
+}
+
+.mailButton > button {
+    background-color: #FFFE1D;
+    width: 400px;
+    margin: 10px 0;
+    font-size: 35px;
+    border-radius: 12px;
+}
+
+.platForm {
+    background-color: #2D2759;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.platLabel {
+    background-color: #2D2759;
+    margin: 10px 0;
+}
+
+.platLabel > label {
+    color: #FFFE1D;
+    background-color: #2D2759;
+    font-size: 37px;
+    margin-bottom: 10px;
+}
+
+.platButton {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #2D2759;
+    margin: 10px 0;
+}
+
+.platButton > button {
+    background-color: #ED6108;
+}
+
+#steam {
+    background-image: url(images/steamlogo.png);
+    background-size: cover;
+    width:90px;
+    height:90px;
+    border-radius: 12px;
+}
+
+#playstation {  
+    background-image: url(images/sony_playstation_icon_135172.png);
+    background-size: cover;
+    width:90px;
+    height:90px;
+    border-radius: 12px;
+}
+
+/* Form Image */
+.formImg {
+    background-color: #2D2759;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #191919;
+    padding: 30px;
+}
+
+.leftFoot {
+    margin-left: 50px;
+    background-color: #191919;
+}
+
+.rightFoot {
+    margin-right: 50px;
+    background-color: #191919;
+}
+
+footer > img {
+    margin: auto;
+}
+
+.leftFoot > img {
+    background-color: #191919;
+}
+
+@media only screen and (max-width: 800px) {
+    .wrapper {
+        width: 100%;
+    }
+    .banner {
+        width: 100%;
+        flex-direction: column;
+    }
+    .signUp {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+}

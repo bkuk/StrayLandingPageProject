@@ -9,3 +9,5 @@ Live Version: https://bkuk.github.io/StrayLandingPageProject/
 Created Using:
 - HTML
 - CSS Flexbox
+
+![Stray Landing Page Screenshot](images/landing.jpg)
